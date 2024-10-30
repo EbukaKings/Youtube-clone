@@ -12,7 +12,6 @@
     position: relative;
 }
 .video-tittle {
-    /* width: 300px; */
     margin-top: 0;
     font-size: 14px;
     font-weight: 500;
@@ -54,4 +53,14 @@
     position: absolute;
     bottom: 8px;
     right: 5px;
+}
+@media (max-width: 600px) { 
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 1000px) { 
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
 }
